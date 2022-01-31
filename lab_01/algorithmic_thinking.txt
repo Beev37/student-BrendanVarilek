@@ -1,6 +1,6 @@
 exercise 1: The robot typist ---
 assumptions:
-- knows length of message (number of characters and lines)
+- 
 
 instructions: 
 - determine the number of characters in the message
@@ -10,8 +10,20 @@ instructions:
 equal to = (60-x)/2
 - add condition so that, if message length exceeds last character space of line 25, then put this message at 
 beginning of next paper
-
+________________________________________________________________________________________________________________
 exercise 2: Remainders ---
 assumptions:
-- denominator is not 0
+- x/y
+- denominator (y) is not 0
+
+instructions:
+- is x>y? if yes, continue. else, x/y is the remainder 
+- add y to itself 'n' times, until the sum is within one increment of y away from x (until (x-y)<*sum*<=x)
+- remainder = x - n*y
+________________________________________________________________________________________________________________
+exercise 3: Triangle Types ---
+assumptions:
 - 
+
+instrutions:
+- j

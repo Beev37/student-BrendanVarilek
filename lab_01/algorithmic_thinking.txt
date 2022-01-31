@@ -23,7 +23,29 @@ instructions:
 ________________________________________________________________________________________________________________
 exercise 3: Triangle Types ---
 assumptions:
-- 
+- a = side 1, b = side 2, c = side 3
+- if two sides are equal (equal sides = x), than the third side must be longer by x*sqrt(2)
+- acute traingles can be scalene, equilateral, or isosceles
+- right triangles can be scalene or isosceles, but never equilateral
+- obtuse triangles can be scalene or isosceles, but never equilateral
 
-instrutions:
+instructions:
+---quick check to rule out options---
+- if a = b = c, traingle is equilateral and acute 
+
+---figure out side-based term---
+- if no sides match, triangle is scalene 
+- if any of two sides are equal, triangle is isosceles
+
+---figure out angles---
+- find two angles A1 & A2 using pythagorean and leave A3 as unknown
+- if either A1 or A2 are 90deg, than triangle is right
+- if neither are 90 and A1 + A2 < 90deg, than triangle is obtuse
+- if neither are 90 and A1 + A2 > 90deg, than triangle is acute
+________________________________________________________________________________________________________________
+exercise 4: The Radio Show ---
+assumptions:
+- j
+
+instructions:
 - j

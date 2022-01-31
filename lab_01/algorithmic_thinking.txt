@@ -74,6 +74,23 @@ the angle that the lower-valued dot had when 'facing' the next.
 ________________________________________________________________________________________________________________
 exercise 6: Celebrity Finder ---
 assumptions:
+- 'known list', constructed and updated by people attending the party, filled with the names of those that are
+know at the party by the ones previously asked.
+
+instructions:
+- I would start by picking someone at random and ask them whome they knew of the remaining guests
+- Then, picking one of the people that the first knew, ask them if they know anyone known by the first person
+- repeat the above with each person on the updated 'known list'
+- as you ask this question, the list of people to ask should be decreasing, as each person unknown by the current 
+person being asked will be removed from the asking list - as they would not be the celebrity. 
+
+how many times will this need to be asked? worst case would be that everyone knows everyone except for one or
+two other people, making the filtration of names off the list slower or close to just about asking everyone.
+It would be much quicker if those we asked only knew a fraction of the party-goers. 
+________________________________________________________________________________________________________________
+exercise 7: Poker Hands ---
+assumptions:
+- 
 
 instructions:
 - 

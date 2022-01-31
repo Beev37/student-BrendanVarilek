@@ -31,7 +31,7 @@ assumptions:
 
 instructions:
 ---quick check to rule out options---
-- if a = b = c, traingle is equilateral and acute 
+- if a = b = c, traingle is equilateral and acute, else is *not* equilateral
 
 ---figure out side-based term---
 - if no sides match, triangle is scalene 
@@ -48,4 +48,17 @@ assumptions:
 - j
 
 instructions:
+- leave space for recording elapsed time, and space for the caller's name. 
+- once you play the first track and get the first call, the first person to get both the artist 
+and song title correct will get their name written down on the card with the elapsed time it took 
+- you continue playing music until someone gives the correct answers in a shorter period of time 
+than the quickest one written on the card, at which point you would erase and rerecord the new winners
+name and their elapsed time
+- continue until your shift is over and you should have the fastest responder written down on the card.
+________________________________________________________________________________________________________________
+exercise 5: Dot-to-Dot Transmission ---
+assumptions:
 - j
+
+instructions:
+- 

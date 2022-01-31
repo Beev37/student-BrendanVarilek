@@ -15,6 +15,7 @@ exercise 2: Remainders ---
 assumptions:
 - x/y
 - denominator (y) is not 0
+- x & y are both positive or both negative
 
 instructions:
 - is x>y? if yes, continue. else, x/y is the remainder 
@@ -45,7 +46,7 @@ instructions:
 ________________________________________________________________________________________________________________
 exercise 4: The Radio Show ---
 assumptions:
-- j
+- 
 
 instructions:
 - leave space for recording elapsed time, and space for the caller's name. 
@@ -90,7 +91,16 @@ It would be much quicker if those we asked only knew a fraction of the party-goe
 ________________________________________________________________________________________________________________
 exercise 7: Poker Hands ---
 assumptions:
-- 
-
+- ranked list with hand type hierarchy pre-written, with nested individual-card-hierarchy list for each hand type 
+    - hand types ranked 1-10 (high card - royal flush), cards ranked 1-14 (2-ace)
 instructions:
-- 
+---figure out hand comparisons---
+- scan hand1 (h1) and determine hand type, then do hand2 (h2)
+- hand values are produced by converting their hand-types and the respective individual cards of each type from
+their place on the list into 2 separate numeric values
+- compare the hand-type value 
+- if one is greater than the other, the greater value player wins
+- else, we check the card rank - or in other words, the different combinations of the hand-types possible
+and the greater value player wins
+________________________________________________________________________________________________________________
+Done.

@@ -57,8 +57,23 @@ name and their elapsed time
 - continue until your shift is over and you should have the fastest responder written down on the card.
 ________________________________________________________________________________________________________________
 exercise 5: Dot-to-Dot Transmission ---
+*assignment note*:
+not really sure whether or not this exercise is asking us to send over an image that would give the receiver
+an image of just dots, or that they would receive an image of the already completed dot puzzles. 
+
 assumptions:
-- j
+- scale of image is fixed 
+- using a unit circle in degrees
+- d = sqrt(x^2+y^2) = distance in px
+- sequence order: "current dot number (DN)", "direction towards next DN", "distance towards next DN;"
+
+instructions:
+- evaluate the lines that connect one dot from the next, extract the distance from each other, and 
+the angle that the lower-valued dot had when 'facing' the next.
+- send over code that sequences the values as such: "1_190deg_15px,2_180deg_2px,3_175deg_6px,...,75_210deg_5px
+________________________________________________________________________________________________________________
+exercise 6: Celebrity Finder ---
+assumptions:
 
 instructions:
 - 

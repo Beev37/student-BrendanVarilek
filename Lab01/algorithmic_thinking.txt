@@ -1,0 +1,17 @@
+exercise 1: The robot typist ---
+assumptions:
+- knows length of message (number of characters and lines)
+
+instructions: 
+- determine the number of characters in the message
+- determine number of lines needed to hold message (factoring in page width)
+- find nearest integer of words that fits within max 60 characters and is even number of characters for a lines
+- take x to be number of characters of that message: starting position of each line of text would be
+equal to = (60-x)/2
+- add condition so that, if message length exceeds last character space of line 25, then put this message at 
+beginning of next paper
+
+exercise 2: Remainders ---
+assumptions:
+- denominator is not 0
+- 

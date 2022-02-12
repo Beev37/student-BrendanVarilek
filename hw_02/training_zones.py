@@ -10,12 +10,14 @@ hr_reserve = float(max_heart_rate - resting_hr)
 hr_zones = {}
 zone_num = 0
 perc_low = .4
-perc_high = .499999999
+perc_high = .5
 
 while zone_num <= 5:
     zone_num += 1
-    perc_low, perc_high += .1
-    hr_zones[zone_num] = ((float((resting_hr + (hr_reserve*perc_low))), float((resting_hr + (hr_reserve*perc_high)))))
+    perc_low += .1
+    perc_high += .1
+    hr_zones[zone_num] = (round(float((resting_hr + (hr_reserve*perc_low))), 3), round(float((resting_hr + (hr_reserve*perc_high))), 3))
 
-print(f"Your heart rate reserve is: {hr_reserve} bpm")
+print(f"Your heart rate reserve is: {round(hr_reserve, 3)} bpm")
+
 print("Here is a breakdown of your training zones: ")

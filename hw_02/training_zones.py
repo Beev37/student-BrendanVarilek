@@ -4,6 +4,7 @@ outputs health information bout their heart rate."""
 def main():
     """The intent of this function is to take a user's age and resting heart rate,
     and output their rate reserve, and their training zone breakdown"""
+
     age = float(input("Please enter your age: "))
     resting_hr = float(input("Please enter your resting heart rate: "))
     print("===============================================")

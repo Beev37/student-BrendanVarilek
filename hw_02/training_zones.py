@@ -11,7 +11,7 @@ def main():
     max_heart_rate = float(208 - (0.7 * age))
     hr_reserve = float(max_heart_rate - resting_hr)
     hr_zones = {}
-    zone_num = 1
+    zone_num = 0
     perc_low = .4
     perc_high = .4999
     #interesting thing happened w/ "perc_high" value. if it is set to .499 (one less 9 than
@@ -32,7 +32,7 @@ def main():
     print("Here is a breakdown of your training zones: ")
     zone_num = 1
     hr_index = 1
-    for zone in range(len(hr_zones)):
+    for _ in range(len(hr_zones)):
         print(f"Zone {zone_num}: {hr_zones[hr_index][0]} to {hr_zones[hr_index][1]} bpm")
         zone_num += 1
         hr_index += 1
